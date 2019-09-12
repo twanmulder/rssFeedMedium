@@ -1,0 +1,54 @@
+@media (max-width: 1100px) {
+	.medium-feed-image {
+		height: 12rem;
+	}
+}
+
+@media (max-width: 860px) {
+	.rss {
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+		padding: 1.5rem;
+	}
+	.container {
+		padding: 0 1rem;
+	}
+	.feed-title a {
+		text-align: right;
+		font-size: 1rem;
+		color: rgba(82, 95, 127, 0.86);
+	}
+	.feed-title-image {
+		width: 3rem;
+		height: 3rem;
+	}
+	.feed-item-title {
+		margin-top: 4rem;
+		margin-bottom: 0;
+		padding-left: 0.5rem;
+	}
+	.feed-item-title a {
+		font-size: 1.2rem;
+	}
+	.medium-feed-image {
+		height: auto;
+		margin: 0;
+	}
+	.medium-feed-image img {
+		width: 100%;
+		position: relative;
+		top: 0;
+		transform: none;
+		cursor: default;
+	}
+	.medium-feed-item {
+		display: block;
+	}
+	.medium-feed-snippet {
+		margin: 0.8rem;
+		font-size: 1.2rem;
+	}
+	.medium-feed-link {
+		margin: 0.5rem 0.8rem 1.5rem;
+	}
+}
