@@ -23,7 +23,7 @@ hr {
 	border-color: #f6f9fc;
 }
 p {
-	display: inline-block;
+	display: block;
 }
 .container {
 	max-width: 1000px;
